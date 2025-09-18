@@ -29,4 +29,4 @@ print(stemmed_words)
 lemmatizer = WordNetLemmatizer()
 lemmatized_words = [lemmatizer.lemmatize(word) for word in filtered_tokens]
 print("\n4. Lemmatized Words:")
-print(lemmat
+print(lemmatized_words)
